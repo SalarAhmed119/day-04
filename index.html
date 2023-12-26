@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 04 - css introduction</title>
+    <style>
+        /*  */
+        h1{
+            color:red;
+            font-size:2em;
+            /* 16px = 1em 2em=16+16=32 */
+        }
+        img{
+            /*
+            border-width: 10px;
+            border-color: green;
+            border-style: solid;
+            */
+            border: 10px solid green;
+        }
+
+        img#image2{
+            border:15px dashed orange;
+        }
+
+        div{
+            width: 200px;
+            height: 100px;
+            background: green;
+        }
+        div > a{
+            color: aliceblue;
+            text-decoration:none;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Oklabs software solutions</h1>
+    <img src="./img/1.jpeg" alt="first-image">
+    <img id="image2" src="./img/2.jpeg" alt="second-image">
+    <!--  -->
+    <div>
+        <a href="page2.html" target="_blank" id="a1" onclick="doSomthing()">Google</a>
+    </div>
+</body>
+</html>

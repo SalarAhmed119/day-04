@@ -1,0 +1,53 @@
+mkdir --> create folder |  touch ---> create file
+
+syntax:
+
+mkdir folder_name       |   touch filename.extension
+
+
+what is css?
+css stands for cascading style sheet.
+css is the language we use to style the web pages.
+css describes how html elements are to be displayed on screen, paper, or in other media.
+css saves a lot of work. it can control the layout of multiple web pages.
+external stylesheet are stored in css files.
+
+css selectors
+1. element selectors
+syntax:
+element{
+    propert:value;
+}
+2. id selector
+element#id{
+    property:value;
+}
+
+
+src = source
+alt=alternate
+
+
+
+
+anyting which is written in a starting tag is called attribute.
+
+types of attribute
+1. tag specified
+2. global
+3.event attribute
+
+
+href = hyperlink reference
+
+
+
+
+
+git config --global unset.username
+git config --global unset.user.email
+
+
+
+
+
